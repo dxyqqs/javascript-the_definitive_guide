@@ -1,7 +1,7 @@
 # 迭代器原理
 
 ```mermaid
-    flowchart TD
+    graph TD
         A[迭代器的原理] --> 
             B["可迭代对象"] --> 
                 |具有专有迭代器方法且该方法返回迭代器对象|Bmarkdown["`**{ [Symbol.iterator]:() => {}}**`"] -->
